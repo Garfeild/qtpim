@@ -27,7 +27,7 @@
 //#include "alarmwidget.h"
 #include "calendarwidget.h"
 //#include "dialog.h"
-#include "sound.h"
+//#include "sound.h"
 
 class MainWindow : public QMainWindow
 {
@@ -51,7 +51,7 @@ private:
   QTabWidget *tab;
   CalendarWidget *calendar;
   //Dialog *alarmDialog;
-  Sound alarmSound;
+  //Sound alarmSound;
   QString currentFile;
   
   QAction *exitAction;

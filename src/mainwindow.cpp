@@ -39,7 +39,7 @@ MainWindow::MainWindow()
   CreateActions();  //Создаем действия.
   CreateMenus();  //Создаем меню.
 
-  InitAL(); //Инициализация звуковой подсистемы.
+  //InitAL(); //Инициализация звуковой подсистемы.
   
   //connect(alarmWidget,SIGNAL(Found(QString, QString)), 
   //        alarmDialog, SLOT(ShowDialog(QString, QString)));
@@ -85,13 +85,13 @@ void MainWindow::CreateMenus()
 
 void MainWindow::StartPlaySound()
 {
-  alarmSound.LoadData();
-  alarmSound.Play();
+  //alarmSound.LoadData();
+  //alarmSound.Play();
 }
 
 void MainWindow::StopPlaySound()
 {
-  alarmSound.Stop();
+  //alarmSound.Stop();
 }
 
 /*bool MainWindow::Save()
